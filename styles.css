@@ -1,5 +1,36 @@
 
-.border-full{
+.box-shadow{
 
-    border: 3px solid #123;
+    box-shadow: 0 0 12px 3px black;
 }
+
+.divider{
+
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.text-shadow{
+
+    text-shadow: 0 0 10px black;
+}
+
+.keyframe-div{
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:25%; top:0px;}
+    50%  {background-color:blue; left:75%; top:0;}
+    75%  {background-color:green; left:50%; top:0px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
