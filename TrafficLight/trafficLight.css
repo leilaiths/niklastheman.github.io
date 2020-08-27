@@ -1,0 +1,41 @@
+
+
+body {
+
+    background-color: teal;
+}
+
+main {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+
+    background-color: #fff;
+}
+
+.light{
+
+ 
+    width: 250px;
+    height: 250px;
+    margin: 10px 10px 10px 10px;
+}
+
+.red-light{
+
+    background-color: red;
+}
+
+.yellow-light{
+    
+    background-color: yellow;
+}
+
+.green-light{
+    
+    background-color: green;
+}
